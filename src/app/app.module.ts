@@ -5,6 +5,7 @@ import { PrimengModule } from './primeng/primeng.module';
 import { SharedModule } from './shared/shared.module';
 import { VentasModule } from './ventas/ventas.module';
 import { AppRouterModule } from './app-router.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 //Cambiar el locale de la app
 import  localeEs  from '@angular/common/locales/es-HN';
@@ -24,7 +25,7 @@ registerLocaleData( localeFr );
     SharedModule,
     VentasModule,
     PrimengModule,
-    
+    BrowserAnimationsModule
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'es-HN' }
