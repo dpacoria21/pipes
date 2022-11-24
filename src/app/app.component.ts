@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuItem } from 'primeng/api';
 
 @Component({
   selector: 'app-root',
@@ -7,12 +8,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  nombre : string = 'DiEgO';
+
+
+    
+
+
+  nombre : string = 'DiEgO PaCoRi';
   valor: number = 1000;
   obj = {
     nombre: 'Fernando'
   }
 
+  //Los pipes no modifican la data, solo se usan para darle una mejor
+  //visibilidad a la data (cambiarla solo al momento de mostrar sin alterarla desde raiz)
 
   mostrarNombre(){
     console.log(this.nombre);
