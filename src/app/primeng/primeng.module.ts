@@ -12,7 +12,7 @@ import { FieldsetModule } from 'primeng/fieldset';
     ButtonModule,
     CardModule,
     MenubarModule,
-    FieldsetModule
+    FieldsetModule,
   ]
 })
 export class PrimengModule { }
