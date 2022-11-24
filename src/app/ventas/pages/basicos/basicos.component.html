@@ -42,6 +42,15 @@
                 <li>Fecha | date: 'fullDate'</li>
                 <li>Fecha | date: 'LLLL cccc dd, Y'</li>
             </ul>
+
+            <hr>
+
+            <ul>
+                <li> fecha | date: 'long': 'GMT-6' : 'es-HN' </li>
+                <li> fecha | date: 'long': 'GMT-4' : 'en' </li>
+                <li> fecha | date: 'long': 'GMT-4' : 'fr' </li>
+            </ul>
+
         </p-card>
     </div>
     <div class="col-6">
@@ -54,6 +63,14 @@
                 <li>{{ fecha | date: 'shortDate' }}</li>
                 <li>{{ fecha | date: 'fullDate'  }}</li>
                 <li>{{ fecha | date: 'LLLL cccc dd, Y'  }}</li>
+            </ul>
+
+            <hr>
+
+            <ul>
+                <li> {{ fecha | date: 'long': 'GMT-6': 'es-HN' }} </li>
+                <li> {{ fecha | date: 'long': 'GMT-4': 'en' }} </li>
+                <li> {{ fecha | date: 'long': '' : 'fr' }} </li>
             </ul>
         </p-card>
     </div>
